@@ -1,0 +1,11 @@
+[MASTER]
+load-plugins=pylint.extensions.docparams,pylint.extensions.docstyle
+indent-string = '  '
+[MESSAGES CONTROL]
+disable=fixme,
+        D100, # D100: Missing docstring in public module
+        R0801, # R0801: Similar lines in 2 files
+        missing-module-docstring, # C0114
+        no-self-use, # R0201: Method could be a function
+        too-few-public-methods, # R0903: Too few public methods
+        too-many-locals # R0914: Too many local variables

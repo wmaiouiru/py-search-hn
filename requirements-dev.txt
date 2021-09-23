@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# development specific requirements
+pytest~=4.6.0
+wheel
+bs4=4.10.0
